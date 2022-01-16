@@ -64,6 +64,7 @@
             </nav>
             <!--Main-->
             <main class="col-10 bg-secondary">
+                <!--navbar-->
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="flex-fill"></div>
                     <div class="navbar nav">
@@ -87,7 +88,9 @@
                         </li>
                     </div>
                 </nav>
+                <!--main-->
                 <div class="container-fluid mt-3 p-4">
+                    <!--alert-->
                     <div class="row mb-3">
                         <div class="col">
                             <div class="alert alert-info">
@@ -97,6 +100,7 @@
                             </div>
                         </div>
                     </div>
+                    <!--stats-->
                     <div class="row flex-column flex-lg-row">
                         <h2 class="h6 text-white-50">QUICK Statistics</h2>
                         <div class="col">
@@ -144,9 +148,94 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                
+                    <!--progress-->
+                    <div class="row mt-4 flex-column flex-lg-row">    
+                        <!--left--> 
+                        <div class="col">
+                            <h2 class="text-white-50 h6">LOCATION</h2>
+                            <div class="card mb-3" style="height: 280px;">
+
+                                <div class="card-body">
+                                    
+                                    <small class="text-muted">Regional</small>
+                                    <div class="progress mb-4 mt-2" style="height: 5px;">
+                                    <div class="progress-bar bg-success w-25"></div>
+                                    </div>
+
+                                    <small class="text-muted">Global</small>
+                                    <div class="progress mb-4 mt-2" style="height: 5px;">
+                                    <div class="progress-bar bg-primary w-75"></div>
+                                    </div>
+
+                                    <small class="text-muted">Local</small>
+                                    <div class="progress mb-4 mt-2" style="height: 5px;">
+                                    <div class="progress-bar bg-secondary w-50"></div>
+                                    </div>
+
+                                    <small class="text-muted">Internal </small>
+                                    <div class="progress mb-4 mt-2" style="height: 5px;">
+                                    <div class="progress-bar bg-warning w-25"></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--right-->
+                        <div class="col">
+                            <h2 class="h6 text-white-50">DATA</h2>
+                            <div class="card mb-3" style="height: 280px;">
+                            <div class="card-body">
+                                <div class="text-end">
+                                    <button class="btn btn-sm btn-outline-secondary">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                    <button class="btn btn-sm btn-outline-secondary">
+                                        <i class="fas fa-sort-amount-up"></i>
+                                    </button>
+                                    <button class="btn btn-sm btn-outline-secondary">
+                                        <i class="fas fa-filter"></i>
+                                    </button>
+                                </div>
+                                <table class="table">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Age Group</th>
+                                        <th>Data</th>
+                                        <th>Progress</th>
+                                    </tr>
+                                    <tr>
+                                        <th>1</th>
+                                        <th>20-30</th>
+                                        <th>19%</th>
+                                        <th><i class="fas fa-chart-pie"></i></th>
+                                    </tr>
+                                    <tr>
+                                        <th>2</th>
+                                        <th>30-40</th>
+                                        <th>40%</th>
+                                        <th><i class="fas fa-chart-bar"></i></th>
+                                    </tr>
+                                    <tr>
+                                        <th>3</th>
+                                        <th>40-50</th>
+                                        <th>20%</th>
+                                        <th><i class="fas fa-chart-line"></i></th>
+                                    </tr>
+                                    <tr>
+                                        <th>4</th>
+                                        <th>>50</th>
+                                        <th>11%</th>
+                                        <th><i class="fas fa-chart-pie"></i></th>
+                                    </tr>
+                                </table>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
             </main>
+            <footer class="text-center text-mute py-4">&copy; Copyright Sai 2022</footer>
         </div>
     </div>
 
